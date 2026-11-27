@@ -16,4 +16,4 @@ Icone dei requisiti del veicolo (componente **ListaRequisiti**):
 | `icona-radio-cb.svg` | Radio CB o PMR (ricetrasmittente) |
 | `icona-ganci-recupero.svg` | Ganci e attrezzature di recupero (grillo) |
 
-Su WordPress il caricamento di SVG è disattivato: sulle pagine le icone sono inserite come immagine in linea (`data:image/svg+xml`, codificata) nello pseudo-elemento `::before` della voce.
+Su WordPress il caricamento di SVG è disattivato finché non si installa un plugin che lo abilita. Fatto questo, i file vanno caricati e usati come elemento Icona di Elementor. Fino ad allora, sulle pagine le icone sono inserite in modo provvisorio come immagine in linea (`data:image/svg+xml`, codificata) nello pseudo-elemento `::before` della voce.
