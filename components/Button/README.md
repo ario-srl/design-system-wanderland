@@ -1,4 +1,4 @@
-Il bottone dei form multistep di Wanderland: principale (oro) per avanzare o iscriversi, secondario trasparente per tornare indietro.
+Il bottone di Wanderland in due varianti: il **bottone dei form** multistep (principale oro per avanzare o iscriversi, secondario trasparente per tornare indietro) e la **CTA di pagina**, i bottoni delle pagine del sito (in fondo a questo file).
 
 **Cosa fornisce chi lo usa:** l'etichetta (verbo breve in italiano: "Procedi", "Iscriviti", "Indietro") e il contenitore.
 
@@ -11,3 +11,14 @@ Il bottone dei form multistep di Wanderland: principale (oro) per avanzare o isc
 - **Hover e focus da tastiera** (`:hover`, `:focus-visible`): sfondo `button-hover-bg` (`gold-deep`), testo invariato (3.9:1); transizione dello sfondo 0.2s `ease`.
 - **Disabilitato** (posti esauriti): sfondo `button-disabled-bg` (#BDBAB5), testo `button-text`, nessun hover. È l'unico caso in cui l'etichetta non è un verbo all'imperativo: si scrive «Sold out». Contrasto 1.9:1, ammesso perché il bottone non è utilizzabile.
 - Gli stati del bottone secondario non sono ancora definiti.
+
+## CTA di pagina
+
+I bottoni delle pagine del sito (apertura, «Prima di partire», offerta), fuori dai form. Hanno valori propri, più grandi e marcati del bottone dei form.
+
+- Etichetta stile `button-cta`: DM Sans Black 900, 14px, interlinea 14px, tracking 1.5px, sempre in maiuscolo via CSS (scrivi il testo normalmente: «Scrivi a Roberto»). Verbi brevi all'imperativo; l'unica eccezione è «Sold out».
+- Alta 50px su tutti i dispositivi: padding verticale 18px, orizzontale `space-42` (42px) nell'apertura e `space-51` (51px) nelle altre sezioni. Nell'apertura la CTA principale è larga almeno 249px. Raggio `radius-pill`.
+- **Principale:** sfondo `button-bg` (`gold`), testo `button-text` bianco (2.3:1, valore mantenuto); hover e focus `button-hover-bg` (`gold-deep`), transizione dello sfondo 0.2s.
+- **A contorno** (solo su sezioni scure o sulla foto dell'apertura, accanto alla principale): sfondo trasparente, bordo 1px `button-outline-border` (`gold`), testo `button-outline-text` (`gold`); padding 17px × 41px per compensare il bordo, così è alta 50px come la principale. Hover e focus: si riempie di `button-outline-hover-bg` (`gold`) con testo `button-outline-hover-text` (`navy`); transizione di sfondo e colore 0.2s.
+- **Disabilitata** (posti esauriti): sfondo `button-disabled-bg`, testo bianco, etichetta «Sold out», nessun hover.
+- Una sola CTA piena per schermata; nell'apertura si affiancano la principale e quella a contorno, con 17px di distanza (19px e in colonna su mobile).
