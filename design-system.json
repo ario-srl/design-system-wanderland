@@ -145,9 +145,9 @@
   ],
   "lastChange": {
     "by": "Andrea",
-    "at": "2026-11-27T20:00:00Z",
+    "at": "2026-11-27T20:30:00Z",
     "via": "Claude (Claude Code)",
-    "note": "Nuovi stili etichetta-dato e etichetta-numerata (12px maiuscolo, tracking 2px)"
+    "note": "Nuovo componente ListaRequisiti con icone dedicate (assets/Icons), stile requisito e token list-divider"
   },
   "layout": "files",
   "libraries": [],

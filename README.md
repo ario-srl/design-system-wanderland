@@ -103,3 +103,9 @@ I viaggi Wanderland servono a scoprire il mondo. Le immagini cercano l'intensit�
 - **PolaroidCard**: card polaroid con foto e caption "Wanderland **Linea**".
 - **GradientWord**: parola evidenziata in corsivo con gradiente nell'H1.
 - **Galleria**: carosello fotografico in prospettiva (coverflow) che scorre in continuo.
+- **ListaRequisiti**: requisiti del veicolo con un'icona dedicata per voce, nome in DM Sans Bold e spiegazione.
+
+## Icone
+
+- Icone di linea, 24 × 24 mostrate a 30px, tratto 1.6 arrotondato, senza riempimento, colore `navy` sulle sezioni chiare. I file sono nel gruppo `assets/Icons/`.
+- Un'icona per voce, con un significato concreto (per esempio lo schema del cambio per le marce ridotte). Non usare la spunta ✔ come icona.
