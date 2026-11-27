@@ -42,6 +42,7 @@ Wanderland è un brand di viaggi in 4x4, in italiano, con tre linee: **Wanderlan
 
 - I bottoni usano `radius-pill` (9999px, il massimo); i campi del form `radius-field` (4px).
 - Le card polaroid usano `radius-card` (14px) per la cornice e `radius-photo` (10px) per la foto, con `shadow-polaroid`; la card in primo piano usa `shadow-polaroid-active`.
+- Il box dei requisiti e la foto dell'offerta usano `radius-box` (25px); le slide della Galleria `radius-slide` (12px). Non uniformarli a `radius-card` o `radius-photo`.
 - Quando due card polaroid si sovrappongono, nessuna copre la caption dell'altra: in coppia sfalsata la prima (in alto a sinistra) sta sopra la seconda.
 - La spaziatura documentata è quella dei componenti noti: `space-10` nei campi, `space-12` tra bottoni, `space-14` e `space-26` nelle cornici e nei bottoni, `space-18` sui bottoni stretti. Non esiste una scala generale: non inventare passaggi intermedi.
 - Le foto hanno una leggera correzione: saturazione 0.95, contrasto 1.02.
