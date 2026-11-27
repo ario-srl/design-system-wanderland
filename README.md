@@ -11,7 +11,7 @@ Wanderland è un brand di viaggi in 4x4, in italiano, con tre linee: **Wanderlan
 - Ci sono due temi. `light` per le sezioni chiare, `dark` per quelle scure. Imposta `data-theme` sul contenitore della sezione.
 - Sezioni chiare: `cream` (principale), `white`, `mist`. Sezioni scure: `umber` (marrone) e `navy` (blu notte). Nei temi usa `surface` e `surface-alt` invece dei valori fissi.
 - Titoli H1-H6 con `text-heading`: `navy` su sezioni chiare, `sand-96` su sezioni scure. Non usare `navy` come colore di testo su `navy`.
-- Corpo del testo con `text-body`: `slate-70` su sezioni chiare, `amber` su sezioni scure. Le caption usano `text-caption`.
+- Corpo del testo con `text-body`: `slate-70` su sezioni chiare, `sand` su sezioni scure (non `amber`). Le caption usano `text-caption`, con gli stessi colori.
 - Il bottone principale è `button-bg` con testo `button-text`. Il bottone secondario "Indietro" vive solo su sezioni scure e usa `button-secondary-bg` e `button-secondary-border`. Tutti i bottoni hanno sempre `radius-pill`.
 - I campi del form sono un bordino `field-border` di 1px su `field-bg` trasparente (19%; il select 12%, `field-select-bg`), con `radius-field`. Radio e checkbox usano `field-check` (#D2C8BB), mai blu.
 - Oro (`gold`, `gold-glow`, `gold-light`, `gold-deep`) e salvia (`sage`) servono ad azioni, alla parola evidenziata e (solo `gold`) agli eyebrow, mai come sfondo di sezione.
