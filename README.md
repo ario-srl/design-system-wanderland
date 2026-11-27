@@ -20,7 +20,7 @@ Wanderland è un brand di viaggi in 4x4, in italiano, con tre linee: **Wanderlan
 
 ## Tipografia
 
-- I titoli H1-H4 usano Feature Display (stile `h1` … `h4`). `h1` è Regular 400; `h2`-`h4` sono Medium 500 (file `FeatureDisplay-NormalMedium.ttf`). La famiglia non ha un SemiBold: non dichiarare 600, che il browser renderebbe con il Bold.
+- I titoli H1-H4 usano Feature Display (stile `h1` … `h4`). `h1` è Regular 400; `h2` e `h3` sono Bold 700 (file `FeatureDisplay-NormalBold.ttf`); `h4` è Medium 500 (file `FeatureDisplay-NormalMedium.ttf`). La famiglia non ha un SemiBold: non dichiarare 600, che il browser renderebbe comunque con il Bold; per il Bold dichiara 700.
 - H5 è Inter Semi Bold (`h5`). H6 è DM Sans Bold con tracking 3px (`h6`), senza trasformazione in maiuscolo.
 - Gli eyebrow, le etichette brevi sopra i titoli H1-H4 ("IL PERCORSO", "PROGRAMMA"), vanno sempre in MAIUSCOLO: stile `eyebrow`, cioè DM Sans Bold 14px con tracking 3px e `text-transform: uppercase`. Scrivi il testo normalmente e lascia il maiuscolo al CSS.
 - Il corpo del testo è DM Sans Regular 18px (`body`); le caption sono DM Sans Light 14px (`caption`).
