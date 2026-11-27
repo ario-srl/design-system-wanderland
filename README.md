@@ -43,7 +43,10 @@ Wanderland è un brand di viaggi in 4x4, in italiano, con tre linee: **Wanderlan
 - Effetto di lettura allo scroll: le parole passano da `read-off` a `read-on` (sezioni chiare) con una transizione colore di 200ms lineare.
 - La parola evidenziata fluttua con un gradiente tra `gold-glow`, `gold-light`, `gold-deep` e `sage` in un ciclo di 5.2s.
 - Le card a ventaglio si muovono con 420ms e curva `cubic-bezier(.2,.8,.2,1)`.
-- Rispetta sempre `prefers-reduced-motion`: niente animazioni e gradiente fermo.
+- La galleria fotografica scorre in continuo, lineare, con un passaggio ogni 9s (vedi componente **Galleria**).
+- Transizioni di interfaccia, sempre con curva `ease`: colore dei link di navigazione 0.2s; sfondo (e colore) dei bottoni 0.2s; voci delle FAQ 0.3s per sfondo, bordo e ombra, 0.4s per lo spostamento.
+- Focus da tastiera sempre visibile: contorno 2px `sand` con distanza 4px sui link e sui bottoni del menu, 2px `gold` con distanza 2px sulle domande delle FAQ; sui bottoni il focus ha lo stesso aspetto dell'hover.
+- Rispetta sempre `prefers-reduced-motion`: niente animazioni, gradiente fermo, galleria ferma e scorrimento della pagina senza animazione.
 
 ## Logo e favicon
 
@@ -84,9 +87,17 @@ I viaggi Wanderland servono a scoprire il mondo. Le immagini cercano l'intensit�
 
 **Persone e luoghi riconoscibili:** se nella foto si vedono volti riconoscibili, nomi o numeri di imbarcazioni, targhe o simili, servono liberatorie o una scelta diversa prima dell'uso commerciale.
 
+## Navigazione
+
+- **Intestazione (desktop):** logo a sinistra e link a destra, distanziati di 36px. Stile `nav-link`: DM Sans Medium 16px, colore `nav-link` (`sand-96`), che diventa `white` al passaggio del mouse; nessuna sottolineatura. Da 1024px in giù i link si nascondono e compare il bottone del menu.
+- **Menu mobile:** pannello a tutto schermo con sfondo `menu-bg` (`navy` al 98%) e logo in alto. Le voci usano lo stile `menu-link` (DM Sans Medium 26px, `nav-link`), allineate a sinistra, con 20px sopra e sotto e un separatore 1px `menu-divider` tra l'una e l'altra.
+- Il menu si chiude con il bottone di chiusura, con il tasto Esc o toccando una voce. Mentre è aperto la pagina sotto non scorre e il focus passa al bottone di chiusura.
+- Le icone del menu (apri e chiudi) sono tracciate in `sand`.
+
 ## Componenti
 
 - **Button**: bottone principale e secondario del form multistep.
 - **FormField**: campo di testo, select ed etichette radio su sezione scura.
 - **PolaroidCard**: card polaroid con foto e caption "Wanderland **Linea**".
 - **GradientWord**: parola evidenziata in corsivo con gradiente nell'H1.
+- **Galleria**: carosello fotografico in prospettiva (coverflow) che scorre in continuo.
