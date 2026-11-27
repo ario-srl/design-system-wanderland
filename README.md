@@ -10,8 +10,8 @@ Wanderland è un brand di viaggi in 4x4, in italiano, con tre linee: **Wanderlan
 ## Colore
 
 - Ci sono due temi. `light` per le sezioni chiare, `dark` per quelle scure. Imposta `data-theme` sul contenitore della sezione.
-- Sezioni chiare: `cream` (principale), `white`, `mist`. Sezioni scure: `umber` (marrone) e `navy` (blu notte). Nei temi usa `surface` e `surface-alt` invece dei valori fissi.
-- Gli sfondi delle sezioni sono solo colori della palette, mai valori vicini a occhio (es. `#F8F7F5` o `#FAFAF9`). Nelle pagine itinerario: programma e offerta su `cream`, fascia dei dati su `mist-25` sopra il bianco, linea divisoria di 1px in `mist`. Il velo sulla foto di apertura è `overlay`.
+- Sezioni chiare: `cream` (principale), `white`, `mist`, `section-soft`. Sezioni scure: `umber` (marrone) e `navy` (blu notte). Nei temi usa `surface` e `surface-alt` invece dei valori fissi.
+- Gli sfondi delle sezioni sono solo colori della palette, mai valori vicini a occhio. Nelle pagine itinerario: programma e offerta su `section-soft` (#F8F7F5, non `cream`), fascia dei dati su `band-soft` (#FAFAF9), linea divisoria di 1px in `section-divider` (#EFEFEF). Il velo sulla foto di apertura è `overlay`.
 - Titoli H1-H6 con `text-heading`: `navy` su sezioni chiare, `sand-96` su sezioni scure. Non usare `navy` come colore di testo su `navy`.
 - Corpo del testo con `text-body`: `slate-70` su sezioni chiare, `sand` su sezioni scure (non `amber`). Le caption usano `text-caption`, con gli stessi colori.
 - Sulle pagine del sito (fuori dai form) i bottoni sono **CTA di pagina**: etichetta `button-cta` (DM Sans Black 14px, maiuscolo, tracking 1.5px), alti 50px; vedi il componente Button.
