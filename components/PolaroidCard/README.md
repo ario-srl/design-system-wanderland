@@ -6,3 +6,4 @@ Card polaroid per presentare le linee Wanderland: foto con cornice crema e capti
 - La foto ha `radius-photo` e `shadow-photo`, con saturazione 0.95 e contrasto 1.02.
 - La caption è DM Sans 14px con interlettera 0.02em in `polaroid-caption`; il nome della linea è in grassetto.
 - Nel gruppo di tre, la card attiva è in primo piano con `shadow-polaroid-active`, ingrandita del 6% e sollevata di 10px; le altre restano al 92% di opacità e saturazione 0.92. Le card si dispongono a ventaglio e ruotano fino a ±15°.
+- In coppia sfalsata (due card sovrapposte e ruotate in senso opposto: la prima in alto a sinistra, la seconda più in basso a destra) la **prima sta sopra la seconda** (`z-index` più alto). Regola generale: una card non copre mai la caption di un'altra, così tutte le caption restano leggibili, anche su mobile.
