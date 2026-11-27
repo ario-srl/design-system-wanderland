@@ -145,9 +145,9 @@
   ],
   "lastChange": {
     "by": "Andrea",
-    "at": "2026-11-27T19:30:00Z",
+    "at": "2026-11-27T20:00:00Z",
     "via": "Claude (Claude Code)",
-    "note": "Button: nuova variante CTA di pagina (14px Black maiuscolo, alta 50px; principale, a contorno, disabilitata)"
+    "note": "Nuovi stili etichetta-dato e etichetta-numerata (12px maiuscolo, tracking 2px)"
   },
   "layout": "files",
   "libraries": [],
