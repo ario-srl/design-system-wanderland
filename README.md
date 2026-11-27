@@ -14,15 +14,15 @@ Wanderland è un brand di viaggi in 4x4, in italiano, con tre linee: **Wanderlan
 - Corpo del testo con `text-body`: `slate-70` su sezioni chiare, `amber` su sezioni scure. Le caption usano `text-caption`.
 - Il bottone principale è `button-bg` con testo `button-text`. Il bottone secondario "Indietro" vive solo su sezioni scure e usa `button-secondary-bg` e `button-secondary-border`. Tutti i bottoni hanno sempre `radius-pill`.
 - I campi del form sono un bordino `field-border` di 1px su `field-bg` trasparente (19%; il select 12%, `field-select-bg`), con `radius-field`. Radio e checkbox usano `field-check` (#D2C8BB), mai blu.
-- Oro (`gold`, `gold-glow`, `gold-light`, `gold-deep`) e salvia (`sage`) servono ad azioni e alla parola evidenziata, mai come sfondo di sezione.
+- Oro (`gold`, `gold-glow`, `gold-light`, `gold-deep`) e salvia (`sage`) servono ad azioni, alla parola evidenziata e (solo `gold`) agli eyebrow, mai come sfondo di sezione.
 - I colori del logo (`forest`, `ember`, `stone`) sono decorativi. `forest` si usa solo su sezioni chiare; `ember` e `stone` non vanno usati per testo piccolo.
-- Due coppie della sorgente sono sotto la soglia 4.5:1 e restano esatte: `slate-70` come testo corrente sulle sezioni chiare (3.7-4.1:1) e `button-text` bianco su `button-bg` (2.3:1). Se ti serve la leggibilità piena, usa `slate` (solido) per il corpo e `navy` sul bottone (7.0:1), e dichiaralo.
+- Tre coppie sono sotto la soglia 4.5:1 e restano esatte: `slate-70` come testo corrente sulle sezioni chiare (3.7-4.1:1), `button-text` bianco su `button-bg` (2.3:1) e gli eyebrow `gold` sulle sezioni chiare (2.0-2.3:1). Se ti serve la leggibilità piena, usa `slate` (solido) per il corpo e `navy` sul bottone (7.0:1), e dichiaralo.
 
 ## Tipografia
 
 - I titoli H1-H4 usano Feature Display (stile `h1` … `h4`). `h1` è Regular 400; `h2` e `h3` sono Bold 700 (file `FeatureDisplay-NormalBold.ttf`); `h4` è Medium 500 (file `FeatureDisplay-NormalMedium.ttf`). La famiglia non ha un SemiBold: non dichiarare 600, che il browser renderebbe comunque con il Bold; per il Bold dichiara 700.
 - H5 è Inter Semi Bold (`h5`). H6 è DM Sans Bold con tracking 3px (`h6`), senza trasformazione in maiuscolo.
-- Gli eyebrow, le etichette brevi sopra i titoli H1-H4 ("IL PERCORSO", "PROGRAMMA"), vanno sempre in MAIUSCOLO: stile `eyebrow`, cioè DM Sans Bold 14px con tracking 3px e `text-transform: uppercase`. Scrivi il testo normalmente e lascia il maiuscolo al CSS.
+- Gli eyebrow, le etichette brevi sopra i titoli H1-H4 ("IL PERCORSO", "PROGRAMMA"), vanno sempre in MAIUSCOLO: stile `eyebrow`, cioè DM Sans Bold 14px con tracking 3px e `text-transform: uppercase`, sempre in `gold` sia sulle sezioni chiare sia su quelle scure. Scrivi il testo normalmente e lascia il maiuscolo al CSS.
 - Il corpo del testo è DM Sans Regular 18px (`body`); le caption sono DM Sans Light 14px (`caption`).
 - Su mobile usa `h1-mobile`, `h2-mobile` e `h3-mobile`. Tablet, laptop e desktop condividono gli stessi valori; H4-H6, body e caption sono uguali ovunque.
 - Per la parola evidenziata in corsivo usa Feature Display Regular Italic (file nel sistema).
