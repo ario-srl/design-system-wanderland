@@ -3,6 +3,7 @@ Wanderland è un brand di viaggi in 4x4, in italiano, con tre linee: **Wanderlan
 ## Contenuti e voce
 
 - Scrivi in italiano. I bottoni sono verbi brevi all'imperativo: "Procedi", "Indietro", "Iscriviti". Le risposte del form sono "Sì" e "No".
+- Scrivi "fuoristrada", non "off-road" (es. "90% fuoristrada").
 - Scrivi il nome delle linee come "Wanderland" seguito dal nome della linea in grassetto: Wanderland **Labs**, Wanderland **Weekends**, Wanderland **Expeditions**.
 - Il titolo di esempio della landing parte dalla prima persona plurale ("Progettiamo itinerari, viaggi, …") e mette in corsivo, con il gradiente oro, una sola parola chiave: "Insieme" nell'H1.
 
@@ -29,7 +30,7 @@ Wanderland è un brand di viaggi in 4x4, in italiano, con tre linee: **Wanderlan
 - Due etichette piccole, entrambe 12px, tracking 2px e sempre in maiuscolo via CSS: `etichetta-dato` (Regular, colore `text-heading`) sopra i valori della fascia dei dati, ed `etichetta-numerata` (Semi Bold, `gold`) per le sequenze «01 / …» sopra un titoletto. Non sostituiscono l'eyebrow, che resta l'etichetta sopra i titoli H1-H4.
 - I dati sotto ogni giorno del programma («90 km», «Cena e notte incluse»), con la loro icona, usano `dato-giorno`: DM Sans Medium 14px, colore `text-heading`. Non sono caption.
 - Il valore sotto `etichetta-dato` usa `valore-dato`: DM Sans Semi Bold 18px, la misura del `body` con il peso del Semi Bold, colore `text-heading`.
-- Il corpo del testo è DM Sans Regular 18px (`body`); le caption sono DM Sans Light 14px (`caption`).
+- Il corpo del testo è DM Sans Regular 18px (`body`); le caption sono DM Sans Light 14px (`caption`). I crediti delle foto in fondo alla pagina usano `crediti-foto` (DM Sans Light 12px, `sand`).
 - Niente grassetto nel testo: nei paragrafi non usare `<strong>`, `<b>` o pesi Bold/Black per evidenziare parole o frasi. L'unica eccezione è il nome della linea (Wanderland **Weekends**), anche nelle caption delle polaroid. Una frase di chiusura che deve spiccare usa il colore `text-heading` con DM Sans Semi Bold 600 18px, come `valore-dato`.
 - Su mobile usa `h1-mobile`, `h2-mobile`, `h2-offerta-mobile` e `h3-mobile`. Tablet, laptop e desktop condividono gli stessi valori; H4-H6, body e caption sono uguali ovunque.
 - Per la parola evidenziata in corsivo usa Feature Display Regular Italic (file nel sistema).
