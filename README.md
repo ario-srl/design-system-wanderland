@@ -111,6 +111,7 @@ I viaggi Wanderland servono a scoprire il mondo. Le immagini cercano l'intensit√
 - **GradientWord**: parola evidenziata in corsivo con gradiente nell'H1.
 - **Galleria**: carosello fotografico in prospettiva (coverflow) che scorre in continuo.
 - **ListaRequisiti**: requisiti del veicolo con un'icona dedicata per voce, nome in DM Sans Bold e spiegazione.
+- **BarraHero**: date e tappe in fondo alla foto di apertura delle pagine itinerario, sotto una linea di 1px; su mobile si dispongono in colonna, una sotto l'altra.
 
 ## Icone
 
