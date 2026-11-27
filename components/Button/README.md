@@ -7,4 +7,7 @@ Il bottone dei form multistep di Wanderland: principale (oro) per avanzare o isc
 - Padding `space-14` in verticale e `space-26` in orizzontale (`space-18` sotto i 420px); gap `space-12`; font DM Sans 13px (12px sotto i 420px), line-height 1.1, testo su una riga.
 - Su due bottoni affiancati dividono lo spazio in parti uguali; sotto i 340px si impilano.
 - Raggio sempre `radius-pill` (9999px, il massimo): tutti i bottoni, principale e secondario, sono a pillola, anche a larghezza piena.
-- Il testo bianco su oro ha contrasto 2.3:1: valore della sorgente, da migliorare solo se lo decidi tu. La sorgente non fornisce gli stati hover del bottone principale.
+- Il testo bianco su oro ha contrasto 2.3:1: valore della sorgente, da migliorare solo se lo decidi tu. Stati del bottone principale:
+- **Hover e focus da tastiera** (`:hover`, `:focus-visible`): sfondo `button-hover-bg` (`gold-deep`), testo invariato (3.9:1); transizione dello sfondo 0.2s `ease`.
+- **Disabilitato** (posti esauriti): sfondo `button-disabled-bg` (#BDBAB5), testo `button-text`, nessun hover. È l'unico caso in cui l'etichetta non è un verbo all'imperativo: si scrive «Sold out». Contrasto 1.9:1, ammesso perché il bottone non è utilizzabile.
+- Gli stati del bottone secondario non sono ancora definiti.
