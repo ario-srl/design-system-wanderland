@@ -145,9 +145,9 @@
   ],
   "lastChange": {
     "by": "Andrea",
-    "at": "2026-11-27T18:30:00Z",
+    "at": "2026-11-27T19:00:00Z",
     "via": "Claude (Claude Code)",
-    "note": "Documentati navigazione, stati hover e disabilitato del bottone, componente Galleria, transizioni e focus"
+    "note": "Testo corrente e caption sulle sezioni scure in sand invece di amber"
   },
   "layout": "files",
   "libraries": [],
