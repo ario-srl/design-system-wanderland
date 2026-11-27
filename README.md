@@ -4,7 +4,7 @@ Wanderland è un brand di viaggi in 4x4, in italiano, con tre linee: **Wanderlan
 
 - Scrivi in italiano. I bottoni sono verbi brevi all'imperativo: "Procedi", "Indietro", "Iscriviti". Le risposte del form sono "Sì" e "No".
 - Scrivi "fuoristrada", non "off-road" (es. "90% fuoristrada").
-- Nelle date del viaggio i giorni della settimana hanno l'iniziale maiuscola e i mesi sono minuscoli: "Sabato 14 e Domenica 15 novembre", "Domenica 10 gennaio". Nel testo corrente i giorni restano minuscoli ("il pranzo della domenica").
+- Nelle date del viaggio i giorni della settimana e i mesi hanno sempre l'iniziale maiuscola: "Sabato 14 e Domenica 15 Novembre", "Domenica 10 Gennaio". Vale per hero, programma e offerta. Nel testo corrente, quando non è una data, il giorno resta minuscolo ("il pranzo della domenica").
 - Scrivi il nome delle linee come "Wanderland" seguito dal nome della linea in grassetto: Wanderland **Labs**, Wanderland **Weekends**, Wanderland **Expeditions**.
 - Il titolo di esempio della landing parte dalla prima persona plurale ("Progettiamo itinerari, viaggi, …") e mette in corsivo, con il gradiente oro, una sola parola chiave: "Insieme" nell'H1.
 
