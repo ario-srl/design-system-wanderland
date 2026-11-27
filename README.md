@@ -26,6 +26,7 @@ Wanderland è un brand di viaggi in 4x4, in italiano, con tre linee: **Wanderlan
 - H5 è DM Sans Semi Bold 600, 20px (`h5`). H6 è DM Sans Bold con tracking 3px (`h6`), senza trasformazione in maiuscolo.
 - Gli eyebrow, le etichette brevi sopra i titoli H1-H4 ("IL PERCORSO", "PROGRAMMA"), vanno sempre in MAIUSCOLO: stile `eyebrow`, cioè DM Sans Bold 14px con tracking 3px e `text-transform: uppercase`, sempre in `gold` sia sulle sezioni chiare sia su quelle scure. Scrivi il testo normalmente e lascia il maiuscolo al CSS.
 - Due etichette piccole, entrambe 12px, tracking 2px e sempre in maiuscolo via CSS: `etichetta-dato` (Regular, colore `text-heading`) sopra i valori della fascia dei dati, ed `etichetta-numerata` (Semi Bold, `gold`) per le sequenze «01 / …» sopra un titoletto. Non sostituiscono l'eyebrow, che resta l'etichetta sopra i titoli H1-H4.
+- Il valore sotto `etichetta-dato` usa `valore-dato`: DM Sans Semi Bold 18px, la misura del `body` con il peso del Semi Bold, colore `text-heading`.
 - Il corpo del testo è DM Sans Regular 18px (`body`); le caption sono DM Sans Light 14px (`caption`).
 - Su mobile usa `h1-mobile`, `h2-mobile`, `h2-offerta-mobile` e `h3-mobile`. Tablet, laptop e desktop condividono gli stessi valori; H4-H6, body e caption sono uguali ovunque.
 - Per la parola evidenziata in corsivo usa Feature Display Regular Italic (file nel sistema).
