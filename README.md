@@ -20,8 +20,8 @@ Wanderland è un brand di viaggi in 4x4, in italiano, con tre linee: **Wanderlan
 
 ## Tipografia
 
-- I titoli H1-H4 usano Feature Display (stile `h1` … `h4`). `h1` è Regular 400; `h2` e `h3` sono Bold 700 (file `FeatureDisplay-NormalBold.ttf`); `h4` è Medium 500 (file `FeatureDisplay-NormalMedium.ttf`). La famiglia non ha un SemiBold: non dichiarare 600, che il browser renderebbe comunque con il Bold; per il Bold dichiara 700.
-- Gli H2 di sezione misurano come gli H3: 36px, 30px su mobile (stile `h2`); la gerarchia la danno eyebrow e posizione. Il titolo della sezione offerta, quella con il prezzo, è un H2 con le misure di h1: stile `h2-offerta`, 55px (42px su mobile), Bold 700.
+- I titoli H1-H4 usano Feature Display (stile `h1` … `h4`). `h1` è Regular 400; `h2` e `h3` sono Bold 700 (file `FeatureDisplay-NormalBold.ttf`), `h2-offerta` Medium 500; `h4` è Medium 500 (file `FeatureDisplay-NormalMedium.ttf`). La famiglia non ha un SemiBold: non dichiarare 600, che il browser renderebbe comunque con il Bold; per il Bold dichiara 700.
+- Gli H2 di sezione misurano come gli H3: 36px, 30px su mobile (stile `h2`); la gerarchia la danno eyebrow e posizione. Il titolo della sezione offerta, quella con il prezzo, è un H2 con le misure di h1: stile `h2-offerta`, 55px (42px su mobile), Medium 500: a quella misura il Medium ha lo stesso peso visivo del Bold degli altri titoli (il Bold sembrerebbe più pesante). Regola generale: titoli più grandi usano un peso più leggero, perché lo spessore delle aste cresce con la misura.
 - H5 è Inter Semi Bold (`h5`). H6 è DM Sans Bold con tracking 3px (`h6`), senza trasformazione in maiuscolo.
 - Gli eyebrow, le etichette brevi sopra i titoli H1-H4 ("IL PERCORSO", "PROGRAMMA"), vanno sempre in MAIUSCOLO: stile `eyebrow`, cioè DM Sans Bold 14px con tracking 3px e `text-transform: uppercase`, sempre in `gold` sia sulle sezioni chiare sia su quelle scure. Scrivi il testo normalmente e lascia il maiuscolo al CSS.
 - Il corpo del testo è DM Sans Regular 18px (`body`); le caption sono DM Sans Light 14px (`caption`).
