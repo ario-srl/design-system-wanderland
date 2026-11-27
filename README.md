@@ -12,6 +12,7 @@ Wanderland è un brand di viaggi in 4x4, in italiano, con tre linee: **Wanderlan
 - Sezioni chiare: `cream` (principale), `white`, `mist`. Sezioni scure: `umber` (marrone) e `navy` (blu notte). Nei temi usa `surface` e `surface-alt` invece dei valori fissi.
 - Titoli H1-H6 con `text-heading`: `navy` su sezioni chiare, `sand-96` su sezioni scure. Non usare `navy` come colore di testo su `navy`.
 - Corpo del testo con `text-body`: `slate-70` su sezioni chiare, `sand` su sezioni scure (non `amber`). Le caption usano `text-caption`, con gli stessi colori.
+- Sulle pagine del sito (fuori dai form) i bottoni sono **CTA di pagina**: etichetta `button-cta` (DM Sans Black 14px, maiuscolo, tracking 1.5px), alti 50px; vedi il componente Button.
 - Il bottone principale è `button-bg` con testo `button-text`. Il bottone secondario "Indietro" vive solo su sezioni scure e usa `button-secondary-bg` e `button-secondary-border`. Tutti i bottoni hanno sempre `radius-pill`.
 - I campi del form sono un bordino `field-border` di 1px su `field-bg` trasparente (19%; il select 12%, `field-select-bg`), con `radius-field`. Radio e checkbox usano `field-check` (#D2C8BB), mai blu.
 - Oro (`gold`, `gold-glow`, `gold-light`, `gold-deep`) e salvia (`sage`) servono ad azioni, alla parola evidenziata e (solo `gold`) agli eyebrow, mai come sfondo di sezione.
@@ -28,7 +29,7 @@ Wanderland è un brand di viaggi in 4x4, in italiano, con tre linee: **Wanderlan
 - Su mobile usa `h1-mobile`, `h2-mobile`, `h2-offerta-mobile` e `h3-mobile`. Tablet, laptop e desktop condividono gli stessi valori; H4-H6, body e caption sono uguali ovunque.
 - Per la parola evidenziata in corsivo usa Feature Display Regular Italic (file nel sistema).
 - I font del sistema sono **solo due: DM Sans e Feature Display**. Non usare altri caratteri (per esempio Inter o Roboto), nemmeno per i titoli piccoli.
-- DM Sans è un Google Font: caricalo dal CSS di Google Fonts nelle pagine che consumano il sistema (DM Sans 300, 400, 500, 600, 700). Feature Display è un font con licenza: i file sono in `fonts/` e vanno caricati con `@font-face` come descritto in `tokens.json`.
+- DM Sans è un Google Font: caricalo dal CSS di Google Fonts nelle pagine che consumano il sistema (DM Sans 300, 400, 500, 600, 700, 900; il 900 serve all'etichetta delle CTA di pagina). Feature Display è un font con licenza: i file sono in `fonts/` e vanno caricati con `@font-face` come descritto in `tokens.json`.
 
 ## Forme, spazio e ombre
 
