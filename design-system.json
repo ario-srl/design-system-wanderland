@@ -145,9 +145,9 @@
   ],
   "lastChange": {
     "by": "Andrea",
-    "at": "2026-11-27T16:30:00Z",
+    "at": "2026-11-27T17:00:00Z",
     "via": "Claude (Claude Code)",
-    "note": "PolaroidCard in coppia sfalsata: la prima card sta sopra la seconda, nessuna card copre la caption di un'altra"
+    "note": "h2 a 36px (30px su mobile) come h3; nuovo stile h2-offerta (55/42px, Bold) per il titolo della sezione offerta"
   },
   "layout": "files",
   "libraries": [],
